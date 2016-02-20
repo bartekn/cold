@@ -1,0 +1,194 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/BurntSushi/toml",
+			"repository": "https://github.com/BurntSushi/toml",
+			"revision": "f772cd89eb0b33743387f826d1918df67f99cc7a",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/agl/ed25519",
+			"repository": "https://github.com/agl/ed25519",
+			"revision": "278e1ec8e8a6e017cd07577924d6766039146ced",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/cpuguy83/go-md2man/md2man",
+			"repository": "https://github.com/cpuguy83/go-md2man",
+			"revision": "2724a9c9051aa62e9cca11304e7dd518e9e41599",
+			"branch": "master",
+			"path": "/md2man"
+		},
+		{
+			"importpath": "github.com/fumiyas/go-tty",
+			"repository": "https://github.com/fumiyas/go-tty",
+			"revision": "7bee8b8caca17a99b149e8631d695a5fa3b4fb2c",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/fumiyas/qrc",
+			"repository": "https://github.com/fumiyas/qrc",
+			"revision": "30bd2491de91d4b5a3ffad3e1f2a946ef45652d0",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/hashicorp/hcl",
+			"repository": "https://github.com/hashicorp/hcl",
+			"revision": "1c284ec98f4b398443cbabb0d9197f7f4cc0077c",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/howeyc/gopass",
+			"repository": "https://github.com/howeyc/gopass",
+			"revision": "88d06c8eecdb5a498ee6165b19d4bc8e394ba273",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/inconshreveable/mousetrap",
+			"repository": "https://github.com/inconshreveable/mousetrap",
+			"revision": "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/jessevdk/go-flags",
+			"repository": "https://github.com/jessevdk/go-flags",
+			"revision": "97448c91aac742cbca3d020b3e769013a420a06f",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/kr/pretty",
+			"repository": "https://github.com/kr/pretty",
+			"revision": "e6ac2fc51e89a3249e82157fa0bb7a18ef9dd5bb",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/kr/text",
+			"repository": "https://github.com/kr/text",
+			"revision": "bb797dc4fb8320488f47bf11de07a733d7233e1f",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/kyokomi/emoji",
+			"repository": "https://github.com/kyokomi/emoji",
+			"revision": "1c2f77e85b7a6ed3601dd3d20d024621192f444e",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/magiconair/properties",
+			"repository": "https://github.com/magiconair/properties",
+			"revision": "c81f9d71af8f8cba1466501d30326b99a4e56c19",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mattn/go-colorable",
+			"repository": "https://github.com/mattn/go-colorable",
+			"revision": "9fdad7c47650b7d2e1da50644c1f4ba7f172f252",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mattn/go-isatty",
+			"repository": "https://github.com/mattn/go-isatty",
+			"revision": "56b76bdf51f7708750eac80fa38b952bb9f32639",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mgutz/ansi",
+			"repository": "https://github.com/mgutz/ansi",
+			"revision": "c286dcecd19ff979eeb73ea444e479b903f2cfcb",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mitchellh/mapstructure",
+			"repository": "https://github.com/mitchellh/mapstructure",
+			"revision": "d2dd0262208475919e1a362f675cfc0e7c10e905",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/nullstyle/go-xdr/xdr3",
+			"repository": "https://github.com/nullstyle/go-xdr",
+			"revision": "ba67f1da77c96c300eefb3c46c923861910b4bb5",
+			"branch": "master",
+			"path": "/xdr3"
+		},
+		{
+			"importpath": "github.com/qpliu/qrencode-go",
+			"repository": "https://github.com/qpliu/qrencode-go",
+			"revision": "2afd23ce9daa8d28218612c03addf57069ee5800",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/russross/blackfriday",
+			"repository": "https://github.com/russross/blackfriday",
+			"revision": "006144af03eeeff1037240a71865a9fd61f1c25f",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/shurcooL/sanitized_anchor_name",
+			"repository": "https://github.com/shurcooL/sanitized_anchor_name",
+			"revision": "10ef21a441db47d8b13ebcc5fd2310f636973c77",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/spf13/cast",
+			"repository": "https://github.com/spf13/cast",
+			"revision": "ee7b3e0353166ab1f3a605294ac8cd2b77953778",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/spf13/cobra",
+			"repository": "https://github.com/spf13/cobra",
+			"revision": "65a708cee0a4424f4e353d031ce440643e312f92",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/spf13/jwalterweatherman",
+			"repository": "https://github.com/spf13/jwalterweatherman",
+			"revision": "d00654080cddbd2b082acaa74007cb94a2b40866",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/spf13/pflag",
+			"repository": "https://github.com/spf13/pflag",
+			"revision": "7f60f83a2c81bc3c3c0d5297f61ddfa68da9d3b7",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/spf13/viper",
+			"repository": "https://github.com/spf13/viper",
+			"revision": "c975dc1b4eacf4ec7fdbf0873638de5d090ba323",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/stellar/go-stellar-base",
+			"repository": "https://github.com/stellar/go-stellar-base",
+			"revision": "c70312762e59fe4fe4e7800f06bd6aea74812ba6",
+			"branch": "master"
+		},
+		{
+			"importpath": "golang.org/x/crypto/ssh/terminal",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "1f22c0103821b9390939b6776727195525381532",
+			"branch": "master",
+			"path": "/ssh/terminal"
+		},
+		{
+			"importpath": "gopkg.in/fsnotify.v1",
+			"repository": "https://gopkg.in/fsnotify.v1",
+			"revision": "8611c35ab31c1c28aa903d33cf8b6e44a399b09e",
+			"branch": "master"
+		},
+		{
+			"importpath": "gopkg.in/kyokomi/emoji.v1",
+			"repository": "https://gopkg.in/kyokomi/emoji.v1",
+			"revision": "1c2f77e85b7a6ed3601dd3d20d024621192f444e",
+			"branch": "master"
+		},
+		{
+			"importpath": "gopkg.in/yaml.v2",
+			"repository": "https://gopkg.in/yaml.v2",
+			"revision": "f7716cbe52baa25d2e9b0d0da546fcf909fc16b4",
+			"branch": "v2"
+		}
+	]
+}
