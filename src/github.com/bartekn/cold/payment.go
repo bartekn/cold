@@ -13,10 +13,10 @@ import (
 )
 
 func init() {
-	RootCmd.AddCommand(versionCmd)
+	RootCmd.AddCommand(paymentCmd)
 }
 
-var versionCmd = &cobra.Command{
+var paymentCmd = &cobra.Command{
 	Use:   "payment",
 	Short: "Creates a transaction with Payment operation",
 	Long:  "",

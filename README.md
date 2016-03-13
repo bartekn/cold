@@ -34,6 +34,7 @@ Usage:
   cold [command]
 
 Available Commands:
+  generate    Generates a new random key pair
   payment     Creates a transaction with Payment operation
 
 Flags:
