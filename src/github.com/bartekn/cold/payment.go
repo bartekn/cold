@@ -4,8 +4,6 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	"strconv"
-	"strings"
 
 	"github.com/spf13/cobra"
 	"github.com/stellar/go-stellar-base/build"
@@ -18,7 +16,7 @@ func init() {
 
 var paymentCmd = &cobra.Command{
 	Use:   "payment",
-	Short: "Creates a transaction with Payment operation",
+	Short: "Create a transaction with Payment operation",
 	Long:  "",
 	Run: func(cmd *cobra.Command, args []string) {
 		reader := bufio.NewReader(os.Stdin)
@@ -34,6 +32,10 @@ var paymentCmd = &cobra.Command{
 			networkPassphrase,
 			"(use --network to change)",
 		)
+
+		if !printText {
+			fmt.Println("Transaction will be printed as QR code (use -s to print as text)")
+		}
 
 		print("Sequence Number (+1): ")
 		sequenceNumber, err := readUint64(reader)
@@ -89,14 +91,4 @@ var paymentCmd = &cobra.Command{
 			printQrCode(txeB64)
 		}
 	},
-}
-
-func readString(reader *bufio.Reader) string {
-	line, _ := reader.ReadString('\n')
-	return strings.TrimRight(line, "\n")
-}
-
-func readUint64(reader *bufio.Reader) (uint64, error) {
-	line := readString(reader)
-	return strconv.ParseUint(line, 10, 64)
 }

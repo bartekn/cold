@@ -1,8 +1,11 @@
 package cold
 
 import (
+	"bufio"
 	"fmt"
 	"os"
+	"strconv"
+	"strings"
 
 	"github.com/fumiyas/go-tty"
 	"github.com/fumiyas/qrc/lib"
@@ -29,4 +32,14 @@ func printQrCode(value string) error {
 		qrc.PrintAA(stdout, grid, false)
 	}
 	return nil
+}
+
+func readString(reader *bufio.Reader) string {
+	line, _ := reader.ReadString('\n')
+	return strings.TrimRight(line, "\n")
+}
+
+func readUint64(reader *bufio.Reader) (uint64, error) {
+	line := readString(reader)
+	return strconv.ParseUint(line, 10, 64)
 }

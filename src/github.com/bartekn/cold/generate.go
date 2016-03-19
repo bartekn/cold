@@ -13,7 +13,7 @@ func init() {
 
 var generateCmd = &cobra.Command{
 	Use:   "generate",
-	Short: "Generates a new random key pair",
+	Short: "Generate a new random key pair",
 	Long:  "",
 	Run: func(cmd *cobra.Command, args []string) {
 		random, err := keypair.Random()

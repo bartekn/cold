@@ -22,7 +22,7 @@ var RootCmd = &cobra.Command{
 
 func init() {
 	RootCmd.PersistentFlags().StringVarP(&network, "network", "n", "test", "[public|test] network to use")
-	RootCmd.PersistentFlags().BoolVarP(&printText, "print-string", "s", false, "when set, transaction will be a string instead of QR code")
+	RootCmd.PersistentFlags().BoolVarP(&printText, "print-string", "s", false, "when set, transaction envelope will be printed as string instead of QR code")
 }
 
 func getNetworkPassphrase() (passphrase string, err error) {
