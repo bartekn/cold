@@ -35,6 +35,7 @@ Usage:
   cold [command]
 
 Available Commands:
+  checksig    Check if signatures added to transaction are valid
   generate    Generate a new random key pair
   payment     Create a transaction with Payment operation
   sign        Add a signature to transaction envelope
@@ -42,7 +43,7 @@ Available Commands:
 Flags:
   -h, --help             help for cold
   -n, --network string   [public|test] network to use (default "test")
-  -s, --print-string     when set, transaction will be a string instead of QR code
+  -s, --print-string     when set, transaction envelope will be printed as string instead of QR code
 
 Use "cold [command] --help" for more information about a command.
 ```

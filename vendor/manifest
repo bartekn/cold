@@ -21,6 +21,12 @@
 			"path": "/md2man"
 		},
 		{
+			"importpath": "github.com/fatih/color",
+			"repository": "https://github.com/fatih/color",
+			"revision": "533cd7fd8a85905f67a1753afb4deddc85ea174f",
+			"branch": "master"
+		},
+		{
 			"importpath": "github.com/fumiyas/go-tty",
 			"repository": "https://github.com/fumiyas/go-tty",
 			"revision": "7bee8b8caca17a99b149e8631d695a5fa3b4fb2c",
