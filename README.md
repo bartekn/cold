@@ -35,10 +35,11 @@ Usage:
   cold [command]
 
 Available Commands:
+  addsig      Add existing signature to transaction envelope
   checksig    Check if signatures added to transaction are valid
   generate    Generate a new random key pair
   payment     Create a transaction with Payment operation
-  sign        Add a signature to transaction envelope
+  sign        Sign a transaction transaction
 
 Flags:
   -h, --help             help for cold
