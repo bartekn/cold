@@ -5,7 +5,7 @@ import (
 
 	"github.com/kyokomi/emoji"
 	"github.com/spf13/cobra"
-	n "github.com/stellar/go-stellar-base/network"
+	n "github.com/stellar/go/network"
 )
 
 var network string

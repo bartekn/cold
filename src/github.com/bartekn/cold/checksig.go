@@ -12,8 +12,8 @@ import (
 	"github.com/fatih/color"
 	"github.com/kyokomi/emoji"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go-stellar-base/keypair"
-	"github.com/stellar/go-stellar-base/xdr"
+	"github.com/stellar/go/keypair"
+	"github.com/stellar/go/xdr"
 )
 
 func init() {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"github.com/stellar/go-stellar-base/keypair"
+	"github.com/stellar/go/keypair"
 )
 
 func init() {

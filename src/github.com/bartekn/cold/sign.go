@@ -6,8 +6,8 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/stellar/go-stellar-base/keypair"
-	"github.com/stellar/go-stellar-base/xdr"
+	"github.com/stellar/go/keypair"
+	"github.com/stellar/go/xdr"
 )
 
 func init() {
@@ -16,7 +16,7 @@ func init() {
 
 var signCmd = &cobra.Command{
 	Use:   "sign",
-	Short: "Add a signature to transaction envelope",
+	Short: "Sign a transaction transaction",
 	Long:  "",
 	Run: func(cmd *cobra.Command, args []string) {
 		reader := bufio.NewReader(os.Stdin)
@@ -27,11 +27,7 @@ var signCmd = &cobra.Command{
 			return
 		}
 
-		fmt.Println(
-			"Using network:",
-			networkPassphrase,
-			"(use --network to change)",
-		)
+		fmt.Println("Using network:", networkPassphrase, "(use --network to change)")
 
 		if !printText {
 			fmt.Println("Transaction Envelope will be printed as QR code (use -s to print as text)")

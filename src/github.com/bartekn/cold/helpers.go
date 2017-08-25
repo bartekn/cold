@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/stellar/go-stellar-base/hash"
-	"github.com/stellar/go-stellar-base/xdr"
+	"github.com/stellar/go/hash"
+	"github.com/stellar/go/xdr"
 )
 
 func transactionHash(tx xdr.Transaction, networkPassphrase string) ([32]byte, error) {

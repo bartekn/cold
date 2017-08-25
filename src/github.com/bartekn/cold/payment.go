@@ -6,8 +6,8 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/stellar/go-stellar-base/build"
-	"github.com/stellar/go-stellar-base/keypair"
+	"github.com/stellar/go/build"
+	"github.com/stellar/go/keypair"
 )
 
 func init() {
